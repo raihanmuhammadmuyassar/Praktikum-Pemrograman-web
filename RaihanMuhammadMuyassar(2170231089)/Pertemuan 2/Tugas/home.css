@@ -1,0 +1,284 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+/* navigation */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 98%;
+    height: 60px;
+    background-color: #0F3D3E;
+    position: fixed;
+    z-index: 99;
+}
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.7em;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.firstname {
+    color: #227C70;
+    font-weight: 700;
+}
+
+.midlename{
+    color: #88A47C;
+    font-weight: 700;
+    padding-left: 4px;
+}
+.lastname {
+    color: #E6E2C3;
+    font-weight: 700;
+    padding-left: 4px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation>li {
+    list-style-type: none;
+    display: flex;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation>li>a:hover {
+    color: #000000;
+    transition: all .3s ease-in-out;
+}
+/* navigation */
+
+
+/* home */
+.kolomHome {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFE9A0;
+}
+
+.kolomHome img {    
+    padding-left: 100px;
+}
+
+.kolomHome h2 {
+    margin-left: 100px;
+    font-size: 64px;
+    color: #0F3D3E;
+}
+
+.kolomHome p {
+    padding: 560px 20px 0px 0px;
+    font-size: 19px;
+    color: #0F3D3E;
+    display: flex;
+}
+/* home */
+
+
+/* education */
+body{
+	font-family: 'Roboto Slab', serif;
+	background-color: #FFE9A0;
+}
+
+.kolomEducation{
+	width: 700px;
+    height: fit-content;
+	margin: auto;		
+	background: #0F3D3E;
+	border-radius: 0px 0px 40px 40px;
+	box-shadow: 2px 2px 8px #0F3D3E;
+    position: block;
+}
+
+.kolomEducation h1{
+	text-align: center; 
+    font-size: 2em;
+	font-family: 'Bungee', cursive; 
+	color: #ffffff; 
+	padding-top:15px;
+	border-bottom: 4px solid #ffffff; 
+	padding-bottom: 20px;
+}
+
+.kotak{
+	border-left:4px solid #ffffff;
+	width: 500px;
+	margin: auto;
+	transition: border 2s, color 2s, height 2s;
+}
+
+p{
+	margin-left: 30px;
+	padding: 10px;
+}
+
+p.hijau{
+	border: 4px solid #ffffff;
+	color: #ffffff;
+	background: #0F3D3E;
+}
+
+.cover{
+	position: relative;
+}
+
+.arrow-left{
+	position: absolute;
+	left: 10px;
+	top: 31px;
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right: 10px solid #ffffff; 
+}
+
+.bulat{
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	border: 3px solid #ffffff;
+	position: relative;
+	top: 48px;
+	left: -9px;
+	background-color: #ffffff;
+}
+
+.tahun{
+	border: 3px solid #ffffff;
+	display: block;
+	width: 50px;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	top: 68px;
+	left: -70px;
+	color: #ffffff;
+	font-family: 'Bungee', cursive; 
+}
+
+.kolomEducation h2 {
+   border-bottom: 4px solid #ffffff;
+}
+/* education */
+
+
+/* schedule */
+.kolomSchedule {
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFE9A0;
+}
+
+.kolomSchedule h1 {
+	text-align: center; 
+    font-size: 2em;
+	font-family: 'Bungee', cursive; 
+	color: #0F3D3E; 
+	padding-top:15px;
+	padding-bottom: 20px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #0F3D3E;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 30px;
+}
+
+.styled-table th {
+    text-align: center;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid orange;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: rgb(165, 127, 57);
+}
+/* schedule */
+
+
+/* organization */
+.kolomOrganization {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.box-tengah {
+    width: 300px;
+    height: 320px;
+    background-color: #0F3D3E;
+    text-align: center;
+    padding: 30px 10px 0px 10px;
+    margin: 75px 20px 20px 130px;
+    float: left;
+    border-radius: 10px;
+}
+
+.judul {
+    font-size: 40px;
+    color: #0F3D3E;
+    padding-top: 20px;
+}
+
+.box-tengah {
+    font-size: 20px;
+}
+
+.kolomOrganization h2 {
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+.isi-box-tengah {
+    margin-right: 35px;
+}

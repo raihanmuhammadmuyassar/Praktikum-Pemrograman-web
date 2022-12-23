@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="POST" action="response2.jsp" enctype="multipart/form-data">
+            <!-- name -->
+            <label>Name : </label>
+            <input type="text" name="name"><br><br>
+
+            <!-- gender -->
+            <label>Gender : </label>
+            <input type="radio">Man
+            <input type="radio">Women
+            <br><br>
+
+            <!-- address -->
+            <label>Address : </label>
+            <input type="text" name="address"><br><br>
+
+            <!-- country -->
+            <label>Country : </label>
+            <select name="country">
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="thailand">Thailand</option>
+                <option value="jepang">Jepang</option>
+                <option value="filipina">Filipina</option>
+                <option value="vietnam">Vietnam</option>
+            </select>
+            <br><br>
+
+            <!-- email -->
+            <label>Email : </label>
+            <input type="email" name="email" id="email"><br><br>
+
+            <!-- Photo -->
+            <label>Photo : </label>
+            <input type="text">
+            <input type="file" name="foto" accept="image/*"><br><br>
+
+            <!-- comment -->
+            <label style="margin: 0px 0px ;">Comment : </label>
+            <textarea name="deskripsi" cols="45" rows="5"></textarea>
+            <input type="submit">
+            <p style="margin: 5px 200px 15px;">Form Registrasi</p>
+        </form>    
+    </body>
+</html>
